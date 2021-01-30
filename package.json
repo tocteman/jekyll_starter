@@ -1,0 +1,22 @@
+{
+  "name": "tigerfood",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "tocteman <juanfrancisco.vinueza@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/webpack --progress --config webpack.config.js && bundle exec jekyll build",
+    "start": "bash -c \"./node_modules/.bin/webpack --watch --progress --colors | tee -i >(bundle exec jekyll serve --livereload --incremental)\""
+  },
+  "devDependencies": {
+    "@babel/core": "7.10.0",
+    "@babel/preset-env": "7.10.0",
+    "babel-loader": "^8.2.2",
+    "webpack": "4.43.0",
+    "webpack-cli": "3.3.11"
+  },
+  "dependencies": {
+    "stimulus": "^2.0.0"
+  }
+}
