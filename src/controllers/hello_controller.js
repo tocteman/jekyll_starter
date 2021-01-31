@@ -5,7 +5,7 @@ export default class extends Controller {
     console.log(`Hello, ${this.name}!`)
   }
 
-  get name() {
-    return this.targets.find("name").value
-  }
+  // get name() {
+  //   return this.targets.find("name").value
+  // }
 }

@@ -4,8 +4,4 @@
 
 layout: default
 ---
-<div data-controller="hello">
-  <input data-target="hello.name" type="text">
-  <button data-action="click->hello#greet">Greet</button>
-</div>
-
+<div class="bg-green-200 p-8"></div>
