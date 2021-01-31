@@ -8,9 +8,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 plugins:
   - jekyll-feed
-  - jekyll-purgecss
-
-css_dir: dist
+  - jekyll-postcss
 
 exclude:
   - purgecss.config.js
